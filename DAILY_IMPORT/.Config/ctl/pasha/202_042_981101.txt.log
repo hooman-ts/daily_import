@@ -1,0 +1,69 @@
+
+SQL*Loader: Release 11.2.0.4.0 - Production on Wed Jan 22 17:32:45 2020
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   202_042_981101.txt.ctl
+First primary datafile 202_042_981101.txt has a
+ utf8 byte order mark in it.
+
+Data File:      202_042_981101.txt
+  Bad File:     202_042_981101.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DAO.PASHA_202, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACQ_BANK                            FIRST     *   %       CHARACTER            
+ACCEPTOR_NAME                        NEXT     *   %       CHARACTER            
+RETURN_REASON                        NEXT     *   %       CHARACTER            
+ADDITIONAL_DATA                      NEXT     *   %       CHARACTER            
+AMOUNT1                              NEXT     *   %       CHARACTER            
+CT                                   NEXT     *   %       CHARACTER            
+TRACENO                              NEXT     *   %       CHARACTER            
+SHEBA                                NEXT     *   %       CHARACTER            
+RCT                                  NEXT     *   %       CHARACTER            
+AMOUNT2                              NEXT     *   %       CHARACTER            
+CYCLENO                              NEXT     *   %       CHARACTER            
+FILE_NAME                                                 CONSTANT
+    Value is '202_042_981101.txt'
+
+Record 1: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 2: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+
+Table DAO.PASHA_202:
+  0 Rows successfully loaded.
+  2 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 182848 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:             2
+Total logical records rejected:         2
+Total logical records discarded:        0
+
+Run began on Wed Jan 22 17:32:45 2020
+Run ended on Wed Jan 22 17:32:45 2020
+
+Elapsed time was:     00:00:00.10
+CPU time was:         00:00:00.01

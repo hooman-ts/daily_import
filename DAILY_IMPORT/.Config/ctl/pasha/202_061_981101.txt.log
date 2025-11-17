@@ -1,0 +1,207 @@
+
+SQL*Loader: Release 11.2.0.4.0 - Production on Wed Jan 22 17:32:46 2020
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   202_061_981101.txt.ctl
+First primary datafile 202_061_981101.txt has a
+ utf8 byte order mark in it.
+
+Data File:      202_061_981101.txt
+  Bad File:     202_061_981101.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table DAO.PASHA_202, loaded from every logical record.
+Insert option in effect for this table: APPEND
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ACQ_BANK                            FIRST     *   %       CHARACTER            
+ACCEPTOR_NAME                        NEXT     *   %       CHARACTER            
+RETURN_REASON                        NEXT     *   %       CHARACTER            
+ADDITIONAL_DATA                      NEXT     *   %       CHARACTER            
+AMOUNT1                              NEXT     *   %       CHARACTER            
+CT                                   NEXT     *   %       CHARACTER            
+TRACENO                              NEXT     *   %       CHARACTER            
+SHEBA                                NEXT     *   %       CHARACTER            
+RCT                                  NEXT     *   %       CHARACTER            
+AMOUNT2                              NEXT     *   %       CHARACTER            
+CYCLENO                              NEXT     *   %       CHARACTER            
+FILE_NAME                                                 CONSTANT
+    Value is '202_061_981101.txt'
+
+Record 1: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 2: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 3: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 4: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 5: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 6: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 7: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 8: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 9: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 10: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 11: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 12: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 13: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 14: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 15: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 16: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 17: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 18: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 19: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 20: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 21: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 22: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 23: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 24: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 25: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 26: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 27: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 28: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 29: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 30: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 31: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 32: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 33: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 34: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 35: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 36: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 37: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 38: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 39: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 40: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 41: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 42: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 43: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 44: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 45: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 46: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 47: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+Record 48: Rejected - Error on table DAO.PASHA_202.
+ORA-00001: unique constraint (DAO.PK_NAME202) violated
+
+
+Table DAO.PASHA_202:
+  0 Rows successfully loaded.
+  48 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 182848 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          0
+Total logical records read:            48
+Total logical records rejected:        48
+Total logical records discarded:        0
+
+Run began on Wed Jan 22 17:32:46 2020
+Run ended on Wed Jan 22 17:32:46 2020
+
+Elapsed time was:     00:00:00.15
+CPU time was:         00:00:00.03
